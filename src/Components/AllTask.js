@@ -19,7 +19,7 @@ function AllTask() {
 
             {
                 createTaskFlag && <div>
-                    <CreateTask />
+                    <CreateTask TaskFlag={TaskFlag} setTaskFlag={setTaskFlag} createTaskFlag={createTaskFlag} setCreateTaskFlag={setCreateTaskFlag} />
                 </div>
             }
         </div>
