@@ -17,11 +17,14 @@ module.exports = {
         '2000': '2000ms',
       },
       padding: ['hover'],
-      backgroundColor: ['active'],
+
+      maxHeight: ['focus'],
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+    },
   },
   plugins: [],
 }
